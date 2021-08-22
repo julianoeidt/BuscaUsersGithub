@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <title>Procura Usuários GitHub</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-warning mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Busca Usuários GitHub</a>
+      </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h1>Pesquisar Usuários do GitHub</h1>
+        <p class="lead">
+          Digite um nome e tecle enter para encontrar o usuário
+        </p>
+        <input
+          id="search"
+          class="form-control"
+          placeholder="Digite o nome de um usuário"
+          required
+        />
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+  </body>
+
+  <script src="busca.js"></script>
+</html>
